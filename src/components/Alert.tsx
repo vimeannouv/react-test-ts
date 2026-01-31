@@ -1,7 +1,6 @@
-import { type ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 
 // All this was apart of this coding tutorial: https://www.youtube.com/watch?v=SqcY0GlETPk
-
 interface AlertProps {
   children: ReactNode;
   onClose: () => void;
